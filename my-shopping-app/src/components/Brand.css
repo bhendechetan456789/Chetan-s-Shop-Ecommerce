@@ -1,0 +1,20 @@
+.brand-section {
+  background-color: #ecdf63; 
+  padding: 40px 0;
+}
+
+.brand-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.brand-logos img {
+  height: 40px;
+  object-fit: contain;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.1));
+}

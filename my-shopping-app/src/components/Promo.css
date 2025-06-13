@@ -1,0 +1,56 @@
+.promo-section {
+  background-color: #eac54f; /* Yellow background */
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.promo-section h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.promo-section p {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.promo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  max-width: 650px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.promo-box input {
+  flex: 1;
+  padding: 18px 25px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 10px 0 0 10px;
+  min-width: 300px;
+}
+
+.promo-box button {
+  padding: 18px 35px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.promo-box button:hover {
+  background-color: #333;
+}

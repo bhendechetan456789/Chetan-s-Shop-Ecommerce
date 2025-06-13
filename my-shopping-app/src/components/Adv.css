@@ -1,0 +1,65 @@
+.Advertise-shop {
+  background-color: #f4f6f5; 
+  border-radius: 40px;
+  padding: 50px;
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.adv-shop-text {
+  max-width: 500px;
+}
+
+.adv-shop-text h1 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: black;
+}
+
+.first-text {
+  background-color: white;
+  display: inline-block;
+  transform: skew(-5deg);
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.yellow-text {
+  background-color: #f6df77;
+  display: inline-block;
+  transform: skew(-5deg);
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.adv-shop-text p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #222;
+}
+
+.shop-btn {
+  background-color: black;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.shop-btn:hover {
+  background-color: #333;
+}
+
+.adv-image img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}

@@ -20,12 +20,11 @@ function Header() {
       </div>
 
       <nav className="nav-links">
-  <Link to="/">HOME</Link>
-  <Link to="/products">PRODUCTS</Link>
-  <Link to={`/product/${item.id}`}>View More</Link>
-  <Link to="#">CATEGORY</Link>
-  <Link to="#">CART</Link>
-</nav>
+        <Link to="/home">HOME</Link>
+        <Link to="/products">PRODUCTS</Link>
+        <Link to="#">CATEGORY</Link>
+        <Link to="#">CART</Link>
+      </nav>
 
       <button className="signup-btn">SIGN UP</button>
     </header>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "./Apicalling.css"; 
+import { Link } from "react-router-dom"; 
+import "./Apicalling.css";
 
 function Apicalling() {
   const [data, setData] = useState([]);
@@ -23,12 +24,14 @@ function Apicalling() {
       <h2>Explore Products</h2>
       <div className="products">
         {data.map((item) => (
-          <div className="product-card">
-            <img src={item.image} alt={item.title} />
+          <div className="product-card" key={item.id}>
+            <img src={item.image} alt={item.title} width="150" />
             <p className="price">${item.price}</p>
             <div className="btn-group">
               <button>Add to Cart</button>
-              <button>View More</button>
+              <Link to={`/product/${item.id}`}>
+                <button>View More</button>
+              </Link>
             </div>
           </div>
         ))}

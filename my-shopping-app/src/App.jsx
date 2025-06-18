@@ -1,40 +1,19 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-import Header from './components/Header';
-import Adv from './components/Adv';
-import Brand from './components/Brand';
-import NewArrivals from './components/NewArrivals';
-import SaleBanner from './components/salebanner';
-import YoungsFavourite from './components/young';
-import Promo from './components/Promo';
-import Footer from './components/Footer';
-import ApiCalling from './pages/ApiCalling';
-import ProductDetails from './pages/ProductDetails'; 
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Apicalling from "./pages/ApiCalling";
+import ProductDetails from "./pages/ProductDetails";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ecommerce-App">
       <Header />
-
       <Routes>
-        <Route path="/" element={
-          <>
-            <Adv />
-            <Brand />
-            <NewArrivals />
-            <SaleBanner />
-            <YoungsFavourite />
-            <Promo />
-          </>
-        } />
-
-        <Route path="/products" element={<ApiCalling />} />
+       <Route element={<Home/>} path="/home" />
+        <Route path="/products" element={<Apicalling />} />
+        <Route path="/product/:id" element={<ProductDetails />} />
       </Routes>
-   
-   <Route path="/product/:id" element={<ProductDetails />} />
-
-      <Footer />
     </BrowserRouter>
   );
 }

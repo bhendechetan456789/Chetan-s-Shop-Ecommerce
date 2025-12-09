@@ -5,6 +5,7 @@
   padding: 16px 32px;
   background-color: #f8f8f8;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
 }
 
 .logo-section {
@@ -22,7 +23,7 @@
   font-size: 22px;
   font-weight: 700;
   color: #111;
-  line-height: 1; /* Yeh important hai vertical align ke liye */
+  line-height: 1;
   display: flex;
   align-items: center;
 }
@@ -58,4 +59,29 @@
 
 .signup-btn:hover {
   background-color: #0056b3;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 15px;
+  }
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    margin: 10px 0;
+  }
+  .nav-links a {
+    font-size: 16px;
+    color: #111;
+  }
+
+  .signup-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
 }

@@ -9,6 +9,7 @@ import "./young.css";
 import "./Promo.css";
 import "./Footer.css";
 import "../pages/ApiCalling.css";
+import "../pages/ProductDetail.css"
 import logo from "../assets/Vector.png";
 
 function Header() {

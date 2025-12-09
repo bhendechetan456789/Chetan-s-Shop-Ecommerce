@@ -67,3 +67,42 @@
 .sale-right button:hover {
   background-color: #333;
 }
+
+
+@media only screen and (max-width: 480px) {
+  .sale-banner {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .sale-left img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .sale-right {
+    max-width: 100%;
+  }
+
+  .sale-right h1 {
+    font-size: 28px;
+  }
+
+  .sale-right .tag {
+    font-size: 24px;
+    padding: 4px 10px;
+  }
+
+  .sale-right p,
+  .sale-right h3 {
+    font-size: 16px;
+  }
+
+  .sale-right button {
+    width: 100%;
+    font-size: 15px;
+    padding: 12px 20px;
+  }
+}

@@ -1,5 +1,5 @@
 .brand-section {
-  background-color: #ecdf63; 
+  background-color: #ecdf63;
   padding: 40px 0;
 }
 
@@ -17,4 +17,22 @@
   height: 40px;
   object-fit: contain;
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.1));
+}
+
+
+@media only screen and (max-width: 480px) {
+  .brand-section {
+    padding: 20px 10px;
+  }
+
+  .brand-logos {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .brand-logos img {
+    height: 35px;
+    width: auto;
+  }
 }

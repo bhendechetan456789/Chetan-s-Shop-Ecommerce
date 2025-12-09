@@ -1,5 +1,4 @@
 import React from 'react';
-// import './SaleBanner.css';
 import salegirl from '../assets/sale girl.png'; 
 
 function SaleBanner() {

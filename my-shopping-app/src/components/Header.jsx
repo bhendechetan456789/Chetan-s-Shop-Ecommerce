@@ -5,7 +5,7 @@ import "./Adv.css";
 import "./Brand.css";
 import "./NewArrivals.css";
 import "./SaleBanner.css";
-import "./Young.css";
+// import "./Young.css";
 import "./Promo.css";
 import "./Footer.css";
 import "../pages/ApiCalling.css";

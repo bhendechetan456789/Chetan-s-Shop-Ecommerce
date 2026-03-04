@@ -31,8 +31,8 @@ function Header() {
     setLoading(true);
     try {
       const url = isLogin
-        ? "http://localhost:5000/api/auth/login"
-        : "http://localhost:5000/api/auth/register";
+        ? "https://chetan-s-shop-ecommerce.onrender.com/api/auth/login"
+        : "https://chetan-s-shop-ecommerce.onrender.com/api/auth/register"
 
       const body = isLogin
         ? { email: formData.email, password: formData.password }

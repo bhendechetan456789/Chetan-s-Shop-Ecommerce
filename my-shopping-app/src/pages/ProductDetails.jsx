@@ -14,7 +14,7 @@ function ProductDetails() {
   });
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/products/${id}`)
+   fetch(`https://chetan-s-shop-ecommerce.onrender.com/api/products/${id}`)
       .then(res => res.json())
       .then(data => { setProduct(data); setLoading(false); })
       .catch(err => { console.log(err); setLoading(false); });

@@ -11,6 +11,7 @@ app.use(express.json());
 
 // Routes
 app.use("/api/products", require("./routes/productRoutes"));
+app.use("/api/auth", require("./routes/authRoutes"));
 
 
 mongoose.connect(process.env.MONGO_URI)

@@ -1,7 +1,7 @@
 import React from 'react';
 import Insta from '../assets/insta.png';
 import under from '../assets/under.png';
-import './young.css';
+import './Young.css';
 
 function Young() {
   return (

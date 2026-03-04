@@ -5,6 +5,7 @@ import shopify from '../assets/shopify.jpg';
 import lacoste from '../assets/lacoste.png';
 import levis from '../assets/Levis.jpg';
 import amazon from '../assets/amazon.jpg';
+import "./Brand.css";
 
 
 function Brand() {

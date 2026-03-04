@@ -1,5 +1,6 @@
 import React from 'react';
 import salegirl from '../assets/sale girl.png'; 
+import './SaleBanner.css';
 
 function SaleBanner() {
   return (

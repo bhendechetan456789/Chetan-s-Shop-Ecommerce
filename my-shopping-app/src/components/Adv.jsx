@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import image from "../assets/fashion-girl-image.png";
+import "./Adv.css";
 
 function Adv() {
   const navigate = useNavigate();
